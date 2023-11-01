@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.fa-person, .fa-person-walking, .fa-hand-point-up {
+    font-size: 100px;
+    
+}
+.red {
+    // background-color: red;
+    // background: linear-gradient(rgba(230, 99, 99, 0.8), rgba(212, 82, 82, 0.8));
+}
+
+.yellow {
+    // background-color: yellow;
+    // background: linear-gradient(rgb(202, 202, 107), rgb(224, 224, 117));
+}
+.green {
+    // background-color: green;
+    // background: linear-gradient(rgb(88, 146, 88),rgb(86, 158, 86));
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    // background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svet {
+    background-color: black;
+    width: 280px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2% auto;
+    border-radius: 10px;
+}

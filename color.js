@@ -8,7 +8,7 @@ function colorRun() {
     let body = document.querySelector("body");
     body.style.backgroundColor = desimal;
     
-    document.querySelector("h1").innerHTML = desimal;
+    document.querySelector(".colorText").innerHTML = desimal;
 }
 
 setInterval(colorRun, 1000);

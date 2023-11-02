@@ -1,7 +1,7 @@
 function time() {
     let date = new Date();
     // let now = document.querySelector("h1").innerHTML = date.toLocaleTimeString();
-    let time = document.querySelector("h1");
+    let time = document.querySelector(".colorTime");
     let hours = date.getHours();
     let minutes = date.getMinutes();
     let seconds = date.getSeconds();

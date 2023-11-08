@@ -4,16 +4,33 @@
     box-sizing: border-box;
     
 }
+
+// body {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     min-height: 700px;
+// }
+// .colorTime {
+//     background-color: cornflowerblue;
+//     padding: 6rem;
+//     font-size: 6em;
+//     color: white;
+//     border-radius: 50px;
+// }
+
 body {
+    font-size: 5rem;
+    color: green;
+}
+.clock {
+    background-color: black;
+    border: 20px solid brown;
+    padding: 2rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 700px;
+    gap: 70px;
 }
-.colorTime {
-    background-color: cornflowerblue;
-    padding: 6rem;
-    font-size: 6em;
-    color: white;
-    border-radius: 50px;
-}
+// .time {
+//     font-size: 2em;
+// }

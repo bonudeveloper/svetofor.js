@@ -8,6 +8,18 @@
   font-size: 100px;
 }
 
+.red.on {
+  background-color: red;
+}
+
+.yellow.on {
+  background-color: yellow;
+}
+
+.green.on {
+  background-color: green;
+}
+
 .circle {
   width: 200px;
   height: 200px;
@@ -53,16 +65,15 @@ body {
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 700px;
+  font-size: 5rem;
+  color: green;
 }
 
-.colorTime {
-  background-color: cornflowerblue;
-  padding: 6rem;
-  font-size: 6em;
-  color: white;
-  border-radius: 50px;
+.clock {
+  background-color: black;
+  border: 20px solid brown;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 70px;
 }/*# sourceMappingURL=main.css.map */

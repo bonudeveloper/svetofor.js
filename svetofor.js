@@ -1,18 +1,24 @@
 function redLight(){
     let red = document.querySelector(".red");
-    red.style.backgroundColor ="red";
+    // red.style.backgroundColor ="red";
+    red.classList.add("on");
+    // yellow.classList.remove("on");
+   
+    // green.classList.remove("on");
 }
 // redLight();
 
 function yellowLight(){
     let yellow = document.querySelector(".yellow");
-    yellow.style.backgroundColor="yellow";
+    // yellow.style.backgroundColor="yellow";
+    yellow.classList.add("on");
 }
 // yellowLight()
 
 function greenLight() {
-  let yellow = document.querySelector(".green");
-  yellow.style.backgroundColor = "green";
+  let green = document.querySelector(".green");
+  // yellow.style.backgroundColor = "green";
+  green.classList.add("on");
 }
 // greenLight();
 
@@ -25,13 +31,13 @@ function tl() {
     setTimeout(() => {
       greenLight();
 
-      setTimeout(yellowLight, 2_000);
+      setTimeout(yellowLight, 5_000);
     }, 2_000);
-  }, 2_000);
+  }, 5_000);
 }
 
 tl();
-setInterval(tl, 1_000);
+setInterval(tl, 14_000);
 
 // setInterval(() =>{
 //   setTimeout(() =>{

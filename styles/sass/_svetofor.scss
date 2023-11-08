@@ -8,18 +8,15 @@
     font-size: 100px;
     
 }
-.red {
-    // background-color: red;
-    // background: linear-gradient(rgba(230, 99, 99, 0.8), rgba(212, 82, 82, 0.8));
+.red.on {
+    background-color:red ; // on class qoshib qoyamiz faqat yoqilsagina iwla diyish uchun
 }
 
-.yellow {
-    // background-color: yellow;
-    // background: linear-gradient(rgb(202, 202, 107), rgb(224, 224, 117));
+.yellow.on {
+    background-color: yellow;
 }
-.green {
-    // background-color: green;
-    // background: linear-gradient(rgb(88, 146, 88),rgb(86, 158, 86));
+.green.on {
+    background-color: green;
 }
 .circle {
     width: 200px;
